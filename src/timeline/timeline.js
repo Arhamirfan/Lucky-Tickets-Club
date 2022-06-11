@@ -43,8 +43,8 @@ function isElementInViewport(el) {
 			<div class="flag-wrapper" >
 				<span class="flag">ABOUT</span>
 				</div>
-			<div class="desc"><p>Lucky Tickets Club is a project consisting of a collection of 999 non fungible tokens<br></br> (NFTs) in the form of ticket numbers from 1 to 999 living on the SOLANA <br></br>. A ticket number will be sold as NFT to buyers and get up to SIX <br></br>chances to win 30 SOL every week. ONCE THE PROJECT SELLS OUT, the prize<br></br> will increase to 40 SOL for each winning ticket for the next TWELVE MONTHs.</p>
-                <p className='red'>Winning ticket numbers will be based on the result of <br></br>the two sets of winning numbers from the California State Lottery’s “Daily 3” Monday,
+			<div class="desc"><p>Lucky Tickets Club is a project consisting of a collection of 999 non fungible tokens<br></br> (NFTs) in the form of ticket numbers from 1 to 999 living on the SOLANA Blockchain<br></br>. A ticket number will be sold as NFT to buyers and get up to SIX <br></br>chances to win 30 SOL every week. ONCE THE PROJECT SELLS OUT, the prize<br></br> will increase to 40 SOL for each winning ticket for the next TWELVE MONTHs.</p>
+                <p className='red'>Winning ticket numbers will be based on the result of <br></br>the two sets of winning numbers from the California State Lottery’s <br></br>“Daily 3” Monday,
                 <br></br> Wednesday and Friday draws ONLY.</p></div>
 		</div>
               
@@ -57,7 +57,7 @@ function isElementInViewport(el) {
 				<span class="flag">BUY MINTED NFT</span>
 				</div>
 			<div class="desc"><p>Each Lucky Ticket costs 15 SOL<br></br>
-Official public sale day on OpenSea will be on June 13, 2022 12:00 PM PDT<br></br>
+Official public sale day on OpenSea will be on June 15, 2022 12:00 PM PDT<br></br>
 
 NO PRESALE. NO GIVEAWAY.<br></br>
 980 out of the 999 collection will be available in OpenSea for the same fixed price of 15 SOL each.<br></br>
@@ -140,7 +140,6 @@ Remaining 19 BLACK TICKETS will be sold for a fixed price of 25 SOL each.</p>
 }
 
 export default Timeline;
-
 
 
 
