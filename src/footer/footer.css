@@ -1,0 +1,82 @@
+.footer
+{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 300px;
+    background-color: rgb(0, 0, 0);
+    
+}
+.hr
+{
+    width: 100%;
+    height: 5px;
+    border-radius: 100%;
+    background-color: rgb(255, 255, 255);
+}
+.well
+{
+    margin: 0;
+    padding-top: 20px;
+    text-align: center;
+}
+.para
+{
+    color:white;
+    font-size: 30px;
+    animation: glow 1s ease-in-out infinite alternate;
+}
+.comee
+{
+  
+    font-size: 80px;
+    animation: glow 1s ease-in-out infinite alternate;
+    color: rgb(255, 255, 255);
+}
+.comeee
+{
+  
+    font-size: 60px;
+    animation: glow 1s ease-in-out infinite alternate;
+    color: rgb(255, 255, 255);
+}
+@keyframes glow {
+    from {
+      text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #000000, 0 0 40px #000000, 0 0 50px #000000, 0 0 60px #000000, 0 0 70px #000000;
+    }
+    
+    to {
+      text-shadow: 0 0 20px #fff, 0 0 30px #000000, 0 0 40px #000000, 0 0 50px #000000, 0 0 60px #000000, 0 0 70px #000000, 0 0 80px #000000;
+    }
+  }
+  #so
+  {
+      text-decoration: none;
+      font-size:400%;
+      
+      animation: glow 1s ease-in-out infinite alternate;
+      color: rgb(255, 255, 255);
+  }
+.nav_discordd
+{
+    margin: 0;
+}
+
+  .nav_leftt
+  {
+    
+    list-style: none;
+    grid-template-columns: repeat(3, auto);
+    grid-gap: 25px;
+    width: 150px;
+    display: grid;
+    text-align: center;
+    justify-content: center;
+    margin:auto
+  }
+  .openn
+  {
+      margin-top: 7px;
+    animation: glow 1s ease-in-out infinite alternate;
+      width: 65px;
+  }

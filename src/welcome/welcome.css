@@ -1,0 +1,45 @@
+.wel
+{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    display: grid;
+    grid-template-columns: repeat(3 , auto);
+}
+.le{
+  width: 40%;
+ padding-left: 30%;
+ padding-top: 10%;
+}
+.ri{
+  width: 40%;
+ padding-left: 30%;
+ padding-top: 10%;
+}
+.come
+{
+  
+    font-size: 80px;
+    animation: glow 1s ease-in-out infinite alternate;
+    color: rgb(255, 255, 255);
+}
+@keyframes glow {
+    from {
+      text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #915dd4, 0 0 40px #915dd4, 0 0 50px #915dd4, 0 0 60px #915dd4, 0 0 70px #915dd4;
+    }
+    
+    to {
+      text-shadow: 0 0 20px #fff, 0 0 30px #915dd4, 0 0 40px #915dd4, 0 0 50px #915dd4, 0 0 60px #915dd4, 0 0 70px #915dd4, 0 0 80px #915dd4;
+    }
+  }
+
+
+  @media screen and (max-width: 768px) {
+    .come
+    {
+        font-size: 50px;
+       
+    }
+
+
+  }

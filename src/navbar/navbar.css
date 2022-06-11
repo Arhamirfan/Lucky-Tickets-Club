@@ -1,0 +1,247 @@
+.navbar{
+margin: 0;
+padding: 0;
+background: rgba(255, 255, 255, 0.25);
+opacity: 1;
+font-family: 'Pathway Gothic One', sans-serif;
+
+}
+.App
+{
+  z-index: 50;
+    background-color: black;
+    width: 100%;
+    height: 150px;
+    display: grid;
+    grid-template-columns: 20% 60% 20%;
+    position:fixed;
+}
+.logo-div
+{
+    text-align: center;
+    
+    
+    
+
+}
+.logo
+{
+    margin-top: 20px;
+    width: 200px;
+    animation: pop-in 2s ease-out backwards;
+}
+
+@keyframes pop-in {
+  0% {
+    opacity: 0;
+    transform: translateX(-4rem) scale(0.8);
+  }
+  100% {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+.nav_center
+{
+    list-style: none;
+    grid-template-columns: repeat(5, auto);
+    grid-gap: 10px;
+    width: 30vw;
+    display: grid;
+    text-align: center;
+    justify-content: center;
+    margin-top: 50px;
+    margin-left: 20%;
+}
+.nav-link {
+    color: white;
+    
+
+    font-size: 40px;
+    text-decoration: none;
+    border: none;
+    box-shadow: 0 8px 8px -4px white;
+    padding: 0.5rem 1rem;
+  
+  }
+
+  .nav_menu
+  {
+    justify-items: center;
+      text-align: center;
+      
+
+  }
+
+  .nav_discord
+  {
+
+  }
+
+  .nav_left
+  {
+    
+    list-style: none;
+    grid-template-columns: repeat(3, auto);
+    grid-gap: 25px;
+    width: 150px;
+    display: grid;
+    text-align: center;
+    justify-content: center;
+    margin-top: 70px;
+    margin-left: 30%;
+  }
+
+  .open
+  {
+    width: 30px;
+  }
+
+
+  .fa-discord
+  {
+      text-decoration: none;
+      font-size: 30px;
+      
+      color:#8ab4f8;
+  }
+
+  .fa-twitter
+  {
+      
+    text-decoration: none;
+    font-size: 30px;
+    color: #1da1f2;
+  }
+.fa-times
+{
+  margin-top: 30px;
+  color: #fff; 
+  display: none;
+}
+  .fa-bars {
+    margin-top: 30px;
+    color: #fff;
+    display: none;
+  }
+  
+  @media screen and (max-width: 1371px) {
+    .fa-times
+{
+  margin-top: 30px;
+  color: #fff; 
+
+  display:block;
+}
+  .fa-bars {
+    margin-top: 30px;
+    color: #fff;
+    display:block;
+  }
+    .App
+{
+    background-color: black;
+    width: 100%;
+    height: 150px;
+    display: grid;
+    grid-template-columns: 20% 0 60%;
+}
+  
+    .NavbarItems {
+      position: fixed;
+    }
+    .navbar-logo {
+   
+      margin-top: 1px;
+    
+  
+    }
+    .nav-link {
+      color: white;
+      
+    }
+    .NavbarItems {
+  height: 80px;
+    }
+    .nav_center {
+      display: flex;
+      margin: 0;
+      padding: 0;
+      border-top: 1px solid white;
+      flex-direction: column;
+      width:   auto;
+      height: 350px;
+      position:absolute;
+      top: 150px;
+      left: -100%;
+      margin: 0;
+      grid-gap: 20px;
+      opacity: 0;
+      transition: all 1s ease;
+    }
+    .nav_center.active {
+      background: transparent;
+      left: 0;
+      background-color: black;
+      width:  100%;
+      opacity: 1;
+      
+      transition: all 0.5s ease;
+      z-index: 1;
+    }
+    .nav-links {
+      text-align: center;
+      padding: 2rem;
+      width: 100%;
+      display: table;
+    }
+    .nav-link:hover {
+      background-color: #4ad9e4;
+      border-radius: 0;
+    }
+    .navbar-logo {
+      top: 0;
+      left: 0;
+      position: absolute;
+      transform: translate(25%, 50%);
+    }
+    .menu-icon {
+      display: block;
+      position: absolute;
+      top: 0;
+      right: 0;
+      transform: translate(-100%, 60%);
+      font-size: 1.8rem;
+      cursor: pointer;
+    }
+    .fa-times {
+      color: #fff;
+      font-size: 2rem;
+    }
+    .nav-link-mobile {
+      display: block;
+      text-align: center;
+      padding: 1.5rem;
+      margin: 2rem auto;
+      border-radius: 4px;
+      width: 80%;
+      background: #4ad9e4;
+      text-decoration: none;
+      color: #fff;
+      font-size: 1.5rem;
+    }
+    .nav-link-mobile:hover {
+      background: #fff;
+      color: #6566f4;
+      transition: 250ms;
+    }
+    button {
+      display: none;
+    }
+  }
+  
+  
+  
+  
+  

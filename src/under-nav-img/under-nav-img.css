@@ -1,0 +1,24 @@
+.div-img
+{
+    margin: 0;
+    padding: 0;
+
+
+height: 100%;
+}
+.img{
+width: 100%;
+margin-top: 150px;
+animation: pop-in 2s ease-out backwards;
+}
+@keyframes pop-in {
+  0% {
+    opacity: 0;
+    transform: translateX(-4rem) scale(0.8);
+  }
+  100% {
+    opacity: 1;
+    transform: none;
+  }
+}
+
