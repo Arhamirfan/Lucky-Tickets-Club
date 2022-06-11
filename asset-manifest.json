@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Lucky-Tickets-Club/static/css/main.267c0cb2.css",
-    "main.js": "/Lucky-Tickets-Club/static/js/main.1bb2f2af.js",
+    "main.js": "/Lucky-Tickets-Club/static/js/main.4064480f.js",
     "static/js/787.28cb0dcd.chunk.js": "/Lucky-Tickets-Club/static/js/787.28cb0dcd.chunk.js",
     "static/media/ticket.png": "/Lucky-Tickets-Club/static/media/ticket.e7f3c8b1f5bf62036488.png",
     "static/media/2.png": "/Lucky-Tickets-Club/static/media/2.f58e3ff872a0264062f5.png",
@@ -10,11 +10,11 @@
     "static/media/OpenSea.png": "/Lucky-Tickets-Club/static/media/OpenSea.09696c19c864bfe2cb0d.png",
     "index.html": "/Lucky-Tickets-Club/index.html",
     "main.267c0cb2.css.map": "/Lucky-Tickets-Club/static/css/main.267c0cb2.css.map",
-    "main.1bb2f2af.js.map": "/Lucky-Tickets-Club/static/js/main.1bb2f2af.js.map",
+    "main.4064480f.js.map": "/Lucky-Tickets-Club/static/js/main.4064480f.js.map",
     "787.28cb0dcd.chunk.js.map": "/Lucky-Tickets-Club/static/js/787.28cb0dcd.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.267c0cb2.css",
-    "static/js/main.1bb2f2af.js"
+    "static/js/main.4064480f.js"
   ]
 }
